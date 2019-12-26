@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <welcome-file-list>
+        <welcome-file>/WEB-INF/jsp/login.jsp</welcome-file>
+    </welcome-file-list>
+
+
+    <!--<servlet>
+        &lt;!&ndash;别名，客户端最终访问的接口的名称后缀&ndash;&gt;
+        <servlet-name>Register</servlet-name>
+        &lt;!&ndash;接口的具体类名，路径必须正确&ndash;&gt;
+        <servlet-class>com.ivorita.servlet.Registerster</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        &lt;!&ndash;<servlet-name>元素给出的Servlet名字必须是在<servlet>元素中声明过的Servlet的名字&ndash;&gt;
+        <servlet-name>Register</servlet-name>
+        &lt;!&ndash;指定对应于Servlet的URL路径，该路径是相对于Web应用程序上下文根的路径&ndash;&gt;
+        <url-pattern>/com.ivorita.servlet.Registerster</url-pattern>
+    </servlet-mapping>-->
+
+    <!--<servlet>
+        <servlet-name>JsonServlet</servlet-name>
+        <servlet-class>com.ivorita.servlet.JsonServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>JsonServlet</servlet-name>
+        <url-pattern>/getJson</url-pattern>
+    </servlet-mapping>-->
+
+</web-app>

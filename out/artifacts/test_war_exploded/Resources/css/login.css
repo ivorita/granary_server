@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 微软雅黑, serif;
+}
+
+body {
+    background-image: url("../images/login-background.svg");
+    background-size: cover;
+}
+
+.container {
+    width: 500px;
+    height: 280px;
+    padding: 60px;
+    background: hsla(0, 0%, 100%, .3);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    text-align: center;
+    margin-top: 13%;
+}
+
+.form-group {
+    width: 200px;
+    margin: 10px auto 0;
+}
+
+.form-check {
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.form-button button {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    margin-left: 8px;
+    padding: 2px;
+}
